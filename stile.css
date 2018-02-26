@@ -33,7 +33,7 @@ h2{
 .blocco{
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 500px;
 }
 
 .bg{
@@ -112,8 +112,8 @@ h2{
 .container{
   text-align: center;
   position: relative;
-  top:20%;
-  transform: translateY(20%);
+  margin-top: 30px;
+
 }
 
 .testo-container{
@@ -126,10 +126,45 @@ h2{
 
 .col-testo{
   line-height:20px;
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 
+.bg-color{
+  background-color: #F9F9F9;
+  height: 1100px;
+  width: 100%;
+}
+
+.col-titolo{
+  margin-top: 5px;
+  height: 50px;
+}
+
+.col-img2{
+  padding: 30px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #428BCA;
+  line-height: 10px;
+}
+
+.col-img2 img{
+  width: 80px;
+  height: 80px;
+}
+
+.HR{
+  width: 50%;
+  height: 80px;
+  margin: auto;
+  margin-top: 30px;
+}
 
 
 
