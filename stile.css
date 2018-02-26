@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+
+.margin{
+  width: 80%;
+  margin: auto;
+}
+
+.contenitore{
+  width: 100vw;
+}
+
+.blocco{
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.bg{
+  background-image: url(http://cademi.it/bundles/fabcademi/img/jumbotron/guitarcouple.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.logo{
+  width: 20%;
+  margin-top: 20px;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.login{
+  margin-top: 20px;
+  width: 20%;
+}
+
+.login a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.testo-centrale{
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 30%;
+  transform: translateY(-30%);
+}
+
+.search{
+  position: relative;
+  top: 50%;
+  width: 50%;
+  height: 60px;
+  border-radius: 5px;
+  margin: auto;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.indirizzo{
+  width: 50%;
+  height: 47px;
+}
+
+.indirizzo input{
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.strumento{
+  width: 30%;
+  height: 47px;
+  margin-left: 1px;
+}
+
+.strumento input{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.clear{
+  clear: both;
+}
