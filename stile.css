@@ -7,6 +7,9 @@
 h2{
   color: #428BCA;
 }
+.black{
+  color: black;
+}
 
 .fl{
   float: left;
@@ -144,7 +147,7 @@ h2{
 }
 
 .col-titolo{
-  margin-top: 5px;
+  margin-top: 10px;
   height: 50px;
 }
 
@@ -187,6 +190,7 @@ h2{
 }
 
 .botton{
+  margin-top: 10px;
   text-align: center;
   height: 100px;
 }
@@ -202,8 +206,74 @@ h2{
   height: 50px;
 }
 
+.botton a:hover{
+  color:white;
+  background-color: #1A2B47;
+  border: 2px solid white;
+}
 
+.numeri{
+  font-size: 3em;
+  width: 50px;
+  height: 60px;
+  color: black;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+}
 
+.botton .botton2{
+  border-radius: 5px;
+  background-color: #428BCA;
+  display: inline-block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  width: 240px;
+  height: 50px;
+}
+
+.pre-footer{
+  width: 100%;
+  height: 150px;
+  background-color: #F8F8F8;
+}
+
+.colum-left{
+  margin-top: 30px;
+  text-align: left;
+  width: 60%;
+}
+.colum-right{
+  text-align: left;
+  margin-top: 30px;
+  width: 40%
+}
+
+.lista{
+  display: block;
+}
+.colum-lista a{
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+.colum-lista{
+  margin-top: 10px;
+  width: 50%;
+}
+
+.footer{
+  width: 100%;
+  background-color: #232323;
+  height: 350px;
+}
+.footer-colum{
+  color: white;
+  margin-top: 30px;
+  width: 25%;
+  border: 1px solid white;
+}
 
 .clear{
   clear: both;
