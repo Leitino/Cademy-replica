@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+h2{
+  color: #428BCA;
+}
+
 .fl{
   float: left;
 }
@@ -17,8 +21,13 @@
   margin: auto;
 }
 
+.margin2{
+  width: 90%;
+  margin: auto;
+}
+
 .contenitore{
-  width: 100vw;
+  width: 100%;
 }
 
 .blocco{
@@ -95,8 +104,31 @@
   padding: 10px;
 }
 
+.sponsor img{
+  width: 100%;
+  margin-top: 20px;
+}
 
+.container{
+  text-align: center;
+  position: relative;
+  top:20%;
+  transform: translateY(20%);
+}
 
+.testo-container{
+  height: 100px;
+}
+
+.colonna{
+  width: 33.333%;
+}
+
+.col-testo{
+  line-height:20px;
+  width: 90%;
+  margin: auto;
+}
 
 
 
