@@ -47,7 +47,7 @@ header{
 .blocco{
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
 .bg{
@@ -135,12 +135,13 @@ header{
 
 .botton3{
   text-align: center;
-  height: 46px;
+  height: 45px;
   padding: 15px;
   width: 14%;
   background-color: #428BCA;
 }
 .botton3 a{
+  width: 100%;
   text-decoration: none;
   color: white;
 }
@@ -313,12 +314,56 @@ header{
 
 /*inizio media queries*/
 
-@media screen and (max-width:480px){
+@media screen and (max-width:650px){
   header{
+    display: block;
     width: 100%;
     background-color: white;
     height: 70px;
+  }
+  .blocco .logo, .login{
+    display: none;
+  }
+  .colonna{
+    width: 100%;
+    position: static;
+    transform: none;
+  }
+  .col-testo{
+    display: none;
+  }
+  .blocco{
+    height: 650px;
+  }
+  #grey{
+    height: 980px;
+  }
+  #corto, #corto2{
+    height: 400px;
+  }
+  .pre-footer{
+    height: 400px;
+    background-color: black;
+  }
+  .colum-lista a{
+    color: white;
+  }
+  .colum-left, .colum-right{
+    width: 100%;
+  }
+  .colonna2{
+    width: 100%;
+    position: static;
+    transform: none;
+  }
 
+}
+
+@media screen and (max-width:1150px){
+  .indirizzo, .strumento, .drop, .botton3{
+  width: 100%;}
+  .search{
+    height: 200px;
   }
 
 }
